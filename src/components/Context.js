@@ -9,6 +9,9 @@ import search from "./Search";
 
 
 let API = "http://hn.algolia.com/api/v1/search?";
+// let API ="https://api.tvmaze.com/search/shows?q=all";
+// let API ="https://api.tvmaze.com/search/shows?q=react";
+
 
 const initialState = {
     isLoading : true,
